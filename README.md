@@ -1,8 +1,8 @@
-# CodeboyBlog
+# HeartAceBlog
 
-[codeboy.me](http://codeboy.me)的网站模板
+//[codeboy.me](http://codeboy.me)的网站模板
 
-![网站截图](codeboy.me.png)
+//![网站截图](codeboy.me.png)
 
 ### 安装方式:
 
@@ -11,7 +11,7 @@
 	gem install jekyll
 	gem install jekyll-paginate
 
-2. 将CodeboyBlog复制到服务器(部署到github.io的方式自行搜索)。
+2. 将HeartAceBlog复制到服务器(部署到github.io的方式自行搜索)。
 3. 运行命令生成网站即可(经常改变配置的话不建议增量更新)。
     
         jekyll serve --watch &
@@ -38,19 +38,4 @@
 3. 修改_include/nav.html,选择自己需要的导航标签(主页, 应用, 标签, 关于等)
 4. 如果博客底部的github，知乎等需要修改，请编辑_includes/footer.html中分享的信息。
 
-### 更新内容:
 
-#### 2015-12-20
-1 多说id移动至_config.xml文件中，集中配置
-
-#### 2015-12-09:
-
-1. 更新_config.yml配置，适配jekyll 3.0+版本。
-2. 更新博客中相关链接，便于博客转向https站点。
-3. 去除anchor,标题前面不再显示 `#` 号
-
-#### 2015-10-10:
-
-1. 在Clean Blog的基础上修改，同时加入黄玄在CleanBlog上添加的云标签。
-2. 加入文章搜索功能，pc上可以双击ctrl触发。
-3. 优化界面，更好的适配手机。
